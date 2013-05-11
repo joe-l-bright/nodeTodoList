@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose')
+    , db = require('./db')
 var Todo = mongoose.model('Todo');
 
 exports.create = function (req, res) {
